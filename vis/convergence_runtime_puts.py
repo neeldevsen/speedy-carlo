@@ -51,6 +51,7 @@ plt.yscale("log")
 
 plt.xlabel(r"$t$")
 plt.ylabel(r"$|V_{MC} - M_{BS}|$")
+plt.title(r"$|V_{MC} - M_{BS}|$ vs. $t$ for put options")
 plt.legend()
 
 plt.show()
