@@ -32,3 +32,17 @@ speedy-carlo/
 |  ├── log_time_evolution.py
 |  ├── time_evolution.py
 ```
+## Build
+For the **CUDA C++** files I compiled it like this:
+```bash
+nvcc -O3 -gencode=arch=compute_89,code=sm_89 file.cu -o exec.out
+```
+For the single-threaded and multi-threaded **C++** files I compiled it like this;
+```bash
+g++ -O3 -std=c++20 -pthread file.cpp -o exec.out
+```
+
+In order to execute these files use (after each compilation you want to execute it):
+```bash
+./exec.out
+```
