@@ -60,16 +60,16 @@ In order to execute these files use (after each compilation you want to execute 
   - 22 Logical Threads
   - x86-64 Architecture
  
-## Results between CUDA, Multithreading and Single Threaded
+## Results
 ### Time Evolution 
-![CPU vs GPU Performance](img/time_evolution.png)
-### log Time Evolution
-![CPU vs GPU Performance](img/log_time_evolution.png)
+![Time Evolution](img/time_evolution.png)
+### Log-Time Evolution
+![log Time Evolution](img/log_time_evolution.png)
 ### Convergence-Time Graph for Calls
-![CPU vs GPU Performance](img/calls_convergence.png)
+![Convergence-Time Graph for Calls](img/calls_convergence.png)
 ### Log-Convergence-Time Graph for Calls
-![CPU vs GPU Performance](img/log_calls_convergence.png)
+![Log-Convergence-Time Graph for Calls](img/log_calls_convergence.png)
 ### Convergence-Time Graph for Puts
-![CPU vs GPU Performance](img/puts_convergence.png)
+![Convergence-Time Graph for Puts](img/puts_convergence.png)
 ### Log-Convergence-Time Graph for Puts
-![CPU vs GPU Performance](img/log_puts_convergence.png)
+![Log-Convergence-Time Graph for Puts](img/log_puts_convergence.png)
