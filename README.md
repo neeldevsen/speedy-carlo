@@ -46,3 +46,30 @@ In order to execute these files use (after each compilation you want to execute 
 ```bash
 ./exec.out
 ```
+## Specifications of Equipment
+- GPU Architecture (NVIDIA GeForce RTX 4070 Max-Q)
+  - 36 Streaming Multiprocessors
+  - 4608 CUDA Cores
+  - 32 Threads per Block
+    
+- CPU Architecture (Intel(R) Core(TM) Ultra 9)
+  - 6 Performance Cores
+  - 8 Efficient Cores
+  - 2 Low-Power Efficient Cores
+  - 16 Total Physical Cores
+  - 22 Logical Threads
+  - x86-64 Architecture
+ 
+## Results between CUDA, Multithreading and Single Threaded
+### Time Evolution 
+![CPU vs GPU Performance](img/time_evolution.png)
+### log Time Evolution
+![CPU vs GPU Performance](img/log_time_evolution.png)
+### Convergence-Time Graph for Calls
+![CPU vs GPU Performance](img/calls_convergence.png)
+### Log-Convergence-Time Graph for Calls
+![CPU vs GPU Performance](img/log_calls_convergence.png)
+### Convergence-Time Graph for Puts
+![CPU vs GPU Performance](img/puts_convergence.png)
+### Log-Convergence-Time Graph for Puts
+![CPU vs GPU Performance](img/log_puts_convergence.png)
