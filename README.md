@@ -1,5 +1,5 @@
 # Speedy-Carlo: CUDA-accelerated and Multithreaded Monte Carlo Simulations
-This repository is dedicated to making my pre-existing Monte Carlo simulations for option pricing even faster. Successfully made my simulations **20.1x** faster with CUDA and **10.1x** faster with Multithreading
+This repository is dedicated to making my pre-existing Monte Carlo simulations for option pricing even faster. Successfully made my simulations **29.4x** faster with CUDA and **9.4x** faster with Multithreading
 ## Directory Structure
 ```text
 speedy-carlo/
